@@ -1,5 +1,5 @@
 #! /bin/bash
 DOTFILES="$HOME/dotfiles"
-ln -sf "$DOTFILES/fish" "$HOME/.config/fish"
-ln -sf "$DOTFILES/nvim" "$HOME/.config/nvim"
-ln -sf "$DOTFILES/.tmux.conf" "$HOME/.tmux.conf"
+ln -sfn "$DOTFILES/fish" "$HOME/.config/fish"
+ln -sfn "$DOTFILES/nvim" "$HOME/.config/nvim"
+ln -sfn "$DOTFILES/.tmux.conf" "$HOME/.tmux.conf"
